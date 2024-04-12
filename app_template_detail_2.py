@@ -23,7 +23,7 @@ def about():
 def data():
     con = sqlite3.connect(db_path)
     cursor = con.cursor()
-    passenger = cursor.execute("SELECT * FROM passenger").fetchall()
+    passenger = cursor.execute("SELECT * FROM passenger LIMIT 20").fetchall()
     con.close()
 
     return render_template("data_table.html", passenger=passenger)
