@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        
+    </head>
+    <body><br><br><br>
+        <a href="{{ url_for('index') }}"> Home:</a>
+        <h1>About</h1>
+        <p><font size='4'><b>Source of our data: We took the data about Airline Passengers from Kaggle.<br>You can Access
+        it using this link:</b>https://www.kaggle.com/datasets/iamsouravbanerjee/airline-dataset</p>
+        <p><table>
+            <tr>
+                <td><b>Passenger ID(Integer):&nbsp;</b></td>
+                <td>A unique identifier assigned to each passenger.</td>
+            </tr>
+            <tr>
+               <td> <b>First Name(String):&nbsp;</b></td>
+                <td> The first name of the passenger.</td>
+            </tr>
+            <tr>
+              <td>  <b>Last Name(String):&nbsp;</b> </td>
+                <td>The last name of the passenger.</td>
+            </tr>
+            <tr>
+              <td>  <b>Gender(String):&nbsp;</b> </td>
+                <td>The gender of the passenger (e.g., Male, Female, Non-binary, etc.).</td>
+            </tr>
+            <tr>
+               <td> <b>Age(Integer):&nbsp;</b> </td>
+                <td>The age of the passenger.</td>
+            </tr>
+            <tr>
+               <td> <b>Nationality(String):&nbsp;</b> </td>
+                <td>The nationality of the passenger (i.e., the country of citizenship)</td>
+            </tr>
+            <tr>
+              <td>  <b>Airport Name(String):&nbsp;</b> </td>
+                <td>The name of the airport where the passenger's flight originates or departs</td>
+            </tr>
+            <tr>
+              <td>  <b>Departure Date(Date):&nbsp; </b></td>
+                <td>The date when the flight departs.</td>
+            </tr>
+            <tr>
+                <td><b>Arrival Airport(String):&nbsp;</b> </td>
+                    <td>The destination airport of the passenger's flight.</td>
+            </tr>
+            <tr>
+               <td> <b>Flight Status(String):&nbsp;</b> </td>
+                <td>The status of the flight (e.g., On Time, Delayed, Cancelled, etc.).</td>
+            </tr>
+        </table></font></p>
+    </body>
+</html>
