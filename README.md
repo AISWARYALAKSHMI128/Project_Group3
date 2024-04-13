@@ -24,11 +24,11 @@ This is a simple Flask Application designed to visualize data in a tabular form 
     STEP 4: Navigate through the different pages using navigation links provided.<br>
 
 <b><font size=4>PROJECT STRUCTURE</font></b><br>
-        1. app_template_detail_2.py : The is the main Flask application file containing the routes and logics for serving webpages.<br>
+        1. app_template_detail_2.py : This is the main Flask application file containing the routes and logics for serving webpages.<br>
         2. templates/ :This directory contains HTML templates used to render the webpages.
                     <ul>
                     <li>index_links.html : Home page template with links to other pages</li>
-                    <li>about.html: The about pages gives a brief description about the dataset and variables.</li>
+                    <li>about.html: The about page gives a brief description about the dataset and variables.</li>
                     <li>data_table.html: Template for displaying the passenger data table.</li>
                     </ul>
         3. create_db.ipynb: This jupyter notebook creates the SQLite database for storing the passenger data.<br>
