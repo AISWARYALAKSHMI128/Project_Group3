@@ -2,13 +2,31 @@
 <html>
     <head>
         <title>My Website</title>
-        <h1><center>YOUR GATEWAY TO THE SKIES....</center></h1>    
+        <h1><center><font size=10>YOUR GATEWAY TO THE SKIES....</font></center></h1>  
+        <style>
+            body {
+                
+                background-image: url('/static/air5.jpg');
+                
+                background-size: 1500px 1100px;
+                background-position:inherit; 
+                background-repeat: no-repeat
+            }
+            
+            h1 {
+            
+            color:rgb(4, 31, 112) ;
+            text-align: center;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+        }
+        </style> 
+  
     </head>
-    <body  background="airpic.jpg">
+    <body >
         <h2><marquee style="color: blue"> This our official website. You can visit our page to get information about our Airline passengers.</marquee></h2>
-        <p><font size=4>Choose where you want to go:</font></p>
+        <p><font size=6>Choose where you want to go:</font></p>
         <ul>
-            <font size=4>
+            <font size=5>
             <li><a href="{{ url_for('about') }}"> About:</a></li>
             <li><a href="{{ url_for('data') }}">Passengers Info: </a></li>
         </font>

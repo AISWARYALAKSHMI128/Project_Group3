@@ -3,6 +3,7 @@ import sqlite3
 import pathlib 
 
 base_path = pathlib.Path(r'C:\Users\USER\Documents\GitHub\Project_Group3')
+app = Flask(__name__, static_url_path='/static')
 db_name = "Airlines.db"
 db_path = base_path / db_name
 print(db_path)
