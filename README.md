@@ -24,18 +24,25 @@ This is a simple Flask Application designed to visualize data in a tabular form 
     STEP 4: Navigate through the different pages using navigation links provided.<br>
 
 <b><font size=4>PROJECT STRUCTURE</font></b><br>
-        1. app_template_detail_2.py : This is the main Flask application file containing the routes and logics for serving webpages.<br>
-        2. templates/ :This directory contains HTML templates used to render the webpages.
+        1. Database Folder: Contains all the files related to Database.<br>
+                <ol type='a'>
+               <li>   AirlineDataset.csv: The csv file of Airline Dataset.<br></li>
+               <li>   Airlines.db: SQLite database file containing the Airline passenger data.<br></li>
+               <li>   create_db.ipynb: This jupyter notebook creates the SQLite database for storing the passenger data.<br></li>
+                </ol>
+        2. Website Folder: All the files related to website.<br>
+               <ol type='a'>
+                <li> static SubFolder: Contains required images.</li>
+                <li> templates Subfolder:This directory contains HTML templates used to render the webpages.
                     <ul>
                     <li>index_links.html : Home page template with links to other pages</li>
-                    <li>about.html: The about page gives a brief description about the dataset and variables.</li>
-                    <li>data_table.html: Template for displaying the passenger data table.</li>
-                    </ul>
-        3. create_db.ipynb: This jupyter notebook creates the SQLite database for storing the passenger data.<br>
-        4. Airlines.db: SQLite database file containing the Airline passenger data.<br>
-        5. README.md : This file provides the information about the project.<br>
-        6. AirlineDataset.csv: The csv file of Airline Dataset.<br>
-        7. requirements.txt: The text file containing all the dependencies and libraries needed to run the project.<br>
+                    <li>about.html : The about page gives a brief description about the dataset and variables.</li>
+                    <li>data_table.html : Template for displaying the passenger data table.</li>
+                    </ul></li>
+                <li>app_template_detail_2.py : This is the main Flask application file containing the routes and logics for serving webpages.</li><br>
+                </ol>
+        3. README.md : This file provides the information about the project.<br>
+        4. requirements.txt: The text file containing all the dependencies and libraries needed to run the project.<br>
 
 <b><font size=4>CONTRIBUTING</font></b><br>
 Contributions are welcome! Feel free to open issues or pull requests for any improvements or new features you would like to see.
