@@ -1,6 +1,6 @@
 # Project_Group3
-<b>TITLE </b>
-Airline Dataset
+<b><font size=8>TITLE</font> </b><br>
+<b><font size=6>Airline Dataset</font><b>
 
 <b>DESCRIPTION</b>
 This is a simple Flask Application designed to visualize data in a tabular form from an SQLite database containing airline passengers information.The application serves webpages to display a various aspects of the data, including a Homepage, an About page and a page displaying a table of passenger data.
